@@ -35,6 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Create a session configuration
         let configuration = ARImageTrackingConfiguration()
         
+        // this is the "Photos" file that contains the reference images
         guard let trackedImages = ARReferenceImage.referenceImages(inGroupNamed: "Photos", bundle: Bundle.main) else {
             print("No image available")
             return
@@ -66,6 +67,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let planeNode = SCNNode(geometry: plane)
             planeNode.eulerAngles.x = -.pi / 2
             
+            // this is the object scene that is being displayed
             let titleScene = SCNScene(named: "art.scnassets/dioramaTest.obj")!
             let titleNode = titleScene.rootNode.childNodes.first!
             titleNode.position = SCNVector3Zero
