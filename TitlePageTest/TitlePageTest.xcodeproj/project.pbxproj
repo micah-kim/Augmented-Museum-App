@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C188413B2682E6160077EA1B /* Screen Shot 2021-06-23 at 12.46.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-06-23 at 12.46.12 PM.png"; sourceTree = "<group>"; };
 		C1CC820D26820B7900C5FAD5 /* TitlePageTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitlePageTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CC821026820B7900C5FAD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1CC821226820B7900C5FAD5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -62,7 +61,6 @@
 				C1CC821426820B7900C5FAD5 /* ViewController.swift */,
 				C1CC821626820B7900C5FAD5 /* Main.storyboard */,
 				C1CC821926820B7A00C5FAD5 /* Assets.xcassets */,
-				C188413B2682E6160077EA1B /* Screen Shot 2021-06-23 at 12.46.12 PM.png */,
 				C1CC821B26820B7A00C5FAD5 /* LaunchScreen.storyboard */,
 				C1CC821E26820B7A00C5FAD5 /* Info.plist */,
 			);

@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "Aristotle.arreferenceimage"
+    },
+    {
+      "filename" : "Joyce375.arreferenceimage"
+    },
+    {
+      "filename" : "Keller.arreferenceimage"
+    }
+  ]
+}
